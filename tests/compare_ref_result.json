@@ -1,0 +1,18 @@
+{
+ "code": {
+  "faie2_err_top1": 0.0052250752082909635,
+  "llama_err_top1": 0.27768611907958984,
+  "faie2_err_top10": 0.01524834541167408,
+  "llama_err_top10": 0.5516538619995117,
+  "kl_ref_faie2": 3.7312447317819136e-05,
+  "ref_agrees_with_oracle_top1": 16
+ },
+ "json": {
+  "faie2_err_top1": 0.0005142700374762702,
+  "llama_err_top1": 0.005623981356620789,
+  "faie2_err_top10": 0.72664839921244,
+  "llama_err_top10": 3.9724931716918945,
+  "kl_ref_faie2": 2.0204796387739756e-05,
+  "ref_agrees_with_oracle_top1": 16
+ }
+}

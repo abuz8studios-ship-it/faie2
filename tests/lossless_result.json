@@ -1,0 +1,153 @@
+{
+ "graphs": true,
+ "cases": {
+  "code": {
+   "plain_matches_llama_first16": true,
+   "modes": {
+    "perfect": {
+     "lossless": true,
+     "k_histogram": {
+      "7": 15
+     },
+     "problems": []
+    },
+    "corrupt": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 12,
+      "1": 5,
+      "2": 4,
+      "3": 3,
+      "4": 7,
+      "5": 3,
+      "6": 3
+     },
+     "problems": []
+    },
+    "random": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 120
+     },
+     "problems": []
+    },
+    "mixed": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 6,
+      "1": 15,
+      "2": 10,
+      "3": 5,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 2
+     },
+     "problems": []
+    }
+   }
+  },
+  "prose": {
+   "plain_matches_llama_first16": true,
+   "modes": {
+    "perfect": {
+     "lossless": true,
+     "k_histogram": {
+      "7": 15
+     },
+     "problems": []
+    },
+    "corrupt": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 7,
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 7,
+      "5": 7,
+      "6": 2
+     },
+     "problems": []
+    },
+    "random": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 120
+     },
+     "problems": []
+    },
+    "mixed": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 13,
+      "1": 8,
+      "2": 4,
+      "3": 5,
+      "4": 2,
+      "5": 1,
+      "6": 5,
+      "7": 1
+     },
+     "problems": []
+    }
+   }
+  },
+  "arabic": {
+   "plain_matches_llama_first16": true,
+   "modes": {
+    "perfect": {
+     "lossless": true,
+     "k_histogram": {
+      "7": 15
+     },
+     "problems": []
+    },
+    "corrupt": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 5,
+      "1": 2,
+      "2": 6,
+      "3": 6,
+      "4": 5,
+      "5": 5,
+      "6": 2
+     },
+     "problems": []
+    },
+    "random": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 120
+     },
+     "problems": []
+    },
+    "mixed": {
+     "lossless": true,
+     "k_histogram": {
+      "0": 13,
+      "1": 8,
+      "2": 5,
+      "3": 2,
+      "4": 5,
+      "5": 6,
+      "6": 1
+     },
+     "problems": []
+    }
+   }
+  }
+ },
+ "k_values_exercised": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "pass": true
+}

@@ -1,0 +1,8 @@
+loaded in 11.8 s
+prose   top1 16/16 (real mismatches 0, tie flips 0)  top5 overlap 5.0  max|dlp| top1 0.0355 top10 0.1441  verify ms [19.93, 19.68]
+code    top1 16/16 (real mismatches 0, tie flips 0)  top5 overlap 4.88  max|dlp| top1 0.2829 top10 0.5669  verify ms [19.61, 19.15]
+json    top1 16/16 (real mismatches 0, tie flips 0)  top5 overlap 4.75  max|dlp| top1 0.006 top10 4.5418  verify ms [19.39, 20.0]
+arabic  top1 16/16 (real mismatches 0, tie flips 0)  top5 overlap 5.0  max|dlp| top1 0.0316 top10 0.1464  verify ms [19.5, 19.15]
+math    top1 16/16 (real mismatches 0, tie flips 0)  top5 overlap 4.94  max|dlp| top1 0.0145 top10 0.1742  verify ms [19.89, 19.89]
+long    top1 16/16 (real mismatches 0, tie flips 0)  top5 overlap 5.0  max|dlp| top1 0.0516 top10 0.1594  verify ms [19.41, 19.17]
+GATE {"positions": 96, "top1_match": 96, "real_mismatches": 0, "mean_top5_overlap": 4.927, "max_d_lp_top1": 0.2829, "p95_d_lp_top10": 0.5697, "pass": true}

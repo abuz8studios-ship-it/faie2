@@ -1,0 +1,280 @@
+{
+ "label": "faie2_pf64",
+ "url": "http://127.0.0.1:8300",
+ "passed": 8,
+ "total": 8,
+ "results": [
+  {
+   "case": "weather",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "get_weather",
+     {
+      "city": "Amman",
+      "unit": "celsius"
+     }
+    ]
+   ],
+   "seconds": 0.7,
+   "finish": "tool_calls",
+   "usage": {
+    "prompt_tokens": 724,
+    "completion_tokens": 64,
+    "total_tokens": 788,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "prompt_n": 724,
+    "cached_n": 0,
+    "prompt_ms": 468.2,
+    "prefilled_n": 723,
+    "predicted_n": 64,
+    "predicted_ms": 220.7,
+    "predicted_per_second": 290.0
+   },
+   "content": null,
+   "reasoning_chars": 101
+  },
+  {
+   "case": "calc",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "calculator",
+     {
+      "expression": "48213 * 977"
+     }
+    ]
+   ],
+   "seconds": 0.3,
+   "finish": "tool_calls",
+   "usage": {
+    "prompt_tokens": 728,
+    "completion_tokens": 66,
+    "total_tokens": 794,
+    "prompt_tokens_details": {
+     "cached_tokens": 700
+    }
+   },
+   "timings": {
+    "prompt_n": 728,
+    "cached_n": 700,
+    "prompt_ms": 39.7,
+    "prefilled_n": 27,
+    "predicted_n": 66,
+    "predicted_ms": 255.0,
+    "predicted_per_second": 258.8
+   },
+   "content": null,
+   "reasoning_chars": 89
+  },
+  {
+   "case": "event_types",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "create_event",
+     {
+      "title": "FAIE2 review",
+      "start": "2026-10-28T14:00:00",
+      "duration_minutes": 45,
+      "attendees": [
+       "ahmad@abuz8.com",
+       "lina@abuz8.com"
+      ]
+     }
+    ]
+   ],
+   "seconds": 1.4,
+   "finish": "tool_calls",
+   "usage": {
+    "prompt_tokens": 757,
+    "completion_tokens": 298,
+    "total_tokens": 1055,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "prompt_n": 757,
+    "cached_n": 0,
+    "prompt_ms": 471.4,
+    "prefilled_n": 756,
+    "predicted_n": 298,
+    "predicted_ms": 915.6,
+    "predicted_per_second": 325.5
+   },
+   "content": null,
+   "reasoning_chars": 478
+  },
+  {
+   "case": "parallel",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "get_weather",
+     {
+      "city": "Amman"
+     }
+    ],
+    [
+     "get_weather",
+     {
+      "city": "Dubai"
+     }
+    ]
+   ],
+   "seconds": 0.76,
+   "finish": "tool_calls",
+   "usage": {
+    "prompt_tokens": 656,
+    "completion_tokens": 82,
+    "total_tokens": 738,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "prompt_n": 656,
+    "cached_n": 0,
+    "prompt_ms": 419.5,
+    "prefilled_n": 655,
+    "predicted_n": 82,
+    "predicted_ms": 315.4,
+    "predicted_per_second": 260.0
+   },
+   "content": null,
+   "reasoning_chars": 123
+  },
+  {
+   "case": "no_tool",
+   "pass": true,
+   "problems": [],
+   "calls": [],
+   "seconds": 0.16,
+   "finish": "stop",
+   "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 17,
+    "total_tokens": 670,
+    "prompt_tokens_details": {
+     "cached_tokens": 636
+    }
+   },
+   "timings": {
+    "prompt_n": 653,
+    "cached_n": 636,
+    "prompt_ms": 38.8,
+    "prefilled_n": 16,
+    "predicted_n": 17,
+    "predicted_ms": 98.4,
+    "predicted_per_second": 172.8
+   },
+   "content": "ready",
+   "reasoning_chars": 55
+  },
+  {
+   "case": "arabic",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "get_weather",
+     {
+      "city": "Amman",
+      "unit": "celsius"
+     }
+    ]
+   ],
+   "seconds": 0.96,
+   "finish": "tool_calls",
+   "usage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 111,
+    "total_tokens": 775,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "prompt_n": 664,
+    "cached_n": 0,
+    "prompt_ms": 433.8,
+    "prefilled_n": 663,
+    "predicted_n": 111,
+    "predicted_ms": 524.5,
+    "predicted_per_second": 211.6
+   },
+   "content": null,
+   "reasoning_chars": 284
+  },
+  {
+   "case": "tool_result",
+   "pass": true,
+   "problems": [],
+   "calls": [],
+   "seconds": 0.81,
+   "finish": "stop",
+   "usage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 60,
+    "total_tokens": 724,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "prompt_n": 664,
+    "cached_n": 0,
+    "prompt_ms": 430.9,
+    "prefilled_n": 663,
+    "predicted_n": 60,
+    "predicted_ms": 354.6,
+    "predicted_per_second": 169.2
+   },
+   "content": "Amman: 23°C, clear skies.",
+   "reasoning_chars": 189
+  },
+  {
+   "case": "agent_step",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "list_dir",
+     {
+      "path": "E:/proj/src"
+     }
+    ]
+   ],
+   "seconds": 0.62,
+   "finish": "tool_calls",
+   "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 49,
+    "total_tokens": 702,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "prompt_n": 653,
+    "cached_n": 0,
+    "prompt_ms": 413.8,
+    "prefilled_n": 652,
+    "predicted_n": 49,
+    "predicted_ms": 178.1,
+    "predicted_per_second": 275.2
+   },
+   "content": null,
+   "reasoning_chars": 80
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "v3+pdx+a2": {
+  "code": {
+   "ms_per_step": 19.049,
+   "tok_per_step": 6.67,
+   "tok_s_gpu": 350.2
+  },
+  "prose": {
+   "ms_per_step": 19.154,
+   "tok_per_step": 2.67,
+   "tok_s_gpu": 139.5
+  }
+ },
+ "v6+pdx+a2": {
+  "code": {
+   "ms_per_step": 22.536,
+   "tok_per_step": 6.67,
+   "tok_s_gpu": 296.1
+  },
+  "prose": {
+   "ms_per_step": 22.529,
+   "tok_per_step": 2.67,
+   "tok_s_gpu": 118.6
+  }
+ }
+}

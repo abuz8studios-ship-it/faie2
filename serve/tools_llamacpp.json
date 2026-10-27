@@ -1,0 +1,312 @@
+{
+ "label": "llamacpp",
+ "url": "http://127.0.0.1:8191",
+ "passed": 8,
+ "total": 8,
+ "results": [
+  {
+   "case": "weather",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "get_weather",
+     {
+      "city": "Amman",
+      "unit": "celsius"
+     }
+    ]
+   ],
+   "seconds": 0.95,
+   "finish": "tool_calls",
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 724,
+    "total_tokens": 789,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "cache_n": 0,
+    "prompt_n": 724,
+    "prompt_ms": 536.965,
+    "prompt_per_token_ms": 0.741664364640884,
+    "prompt_per_second": 1348.31879172758,
+    "predicted_n": 65,
+    "predicted_ms": 400.321,
+    "predicted_per_token_ms": 6.255015625,
+    "predicted_per_second": 159.8717029583759,
+    "draft_n": 70,
+    "draft_n_accepted": 55
+   },
+   "content": "",
+   "reasoning_chars": 102
+  },
+  {
+   "case": "calc",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "calculator",
+     {
+      "expression": "48213 * 977"
+     }
+    ]
+   ],
+   "seconds": 0.56,
+   "finish": "tool_calls",
+   "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 728,
+    "total_tokens": 795,
+    "prompt_tokens_details": {
+     "cached_tokens": 700
+    }
+   },
+   "timings": {
+    "cache_n": 700,
+    "prompt_n": 28,
+    "prompt_ms": 146.545,
+    "prompt_per_token_ms": 5.23375,
+    "prompt_per_second": 191.0675901600191,
+    "predicted_n": 67,
+    "predicted_ms": 395.632,
+    "predicted_per_token_ms": 5.994424242424243,
+    "predicted_per_second": 166.8216928863186,
+    "draft_n": 84,
+    "draft_n_accepted": 55
+   },
+   "content": "",
+   "reasoning_chars": 90
+  },
+  {
+   "case": "event_types",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "create_event",
+     {
+      "title": "FAIE2 review",
+      "start": "2026-10-28T14:00:00",
+      "duration_minutes": 45,
+      "attendees": [
+       "ahmad@abuz8.com",
+       "lina@abuz8.com"
+      ]
+     }
+    ]
+   ],
+   "seconds": 2.15,
+   "finish": "tool_calls",
+   "usage": {
+    "completion_tokens": 299,
+    "prompt_tokens": 757,
+    "total_tokens": 1056,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "cache_n": 0,
+    "prompt_n": 757,
+    "prompt_ms": 494.105,
+    "prompt_per_token_ms": 0.6527146631439894,
+    "prompt_per_second": 1532.0630230416612,
+    "predicted_n": 299,
+    "predicted_ms": 1538.563,
+    "predicted_per_token_ms": 5.162963087248323,
+    "predicted_per_second": 193.68722632742367,
+    "draft_n": 336,
+    "draft_n_accepted": 251
+   },
+   "content": "",
+   "reasoning_chars": 479
+  },
+  {
+   "case": "parallel",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "get_weather",
+     {
+      "city": "Amman"
+     }
+    ],
+    [
+     "get_weather",
+     {
+      "city": "Dubai"
+     }
+    ]
+   ],
+   "seconds": 1.14,
+   "finish": "tool_calls",
+   "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 656,
+    "total_tokens": 739,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "cache_n": 0,
+    "prompt_n": 656,
+    "prompt_ms": 493.057,
+    "prompt_per_token_ms": 0.7516112804878049,
+    "prompt_per_second": 1330.474975509931,
+    "predicted_n": 83,
+    "predicted_ms": 464.399,
+    "predicted_per_token_ms": 5.663402439024391,
+    "predicted_per_second": 176.57230097394697,
+    "draft_n": 105,
+    "draft_n_accepted": 68
+   },
+   "content": "",
+   "reasoning_chars": 124
+  },
+  {
+   "case": "no_tool",
+   "pass": true,
+   "problems": [],
+   "calls": [],
+   "seconds": 0.29,
+   "finish": "stop",
+   "usage": {
+    "completion_tokens": 18,
+    "prompt_tokens": 653,
+    "total_tokens": 671,
+    "prompt_tokens_details": {
+     "cached_tokens": 636
+    }
+   },
+   "timings": {
+    "cache_n": 636,
+    "prompt_n": 17,
+    "prompt_ms": 149.871,
+    "prompt_per_token_ms": 8.815941176470588,
+    "prompt_per_second": 113.43088389348172,
+    "predicted_n": 18,
+    "predicted_ms": 133.118,
+    "predicted_per_token_ms": 7.830470588235293,
+    "predicted_per_second": 127.7062455866224,
+    "draft_n": 28,
+    "draft_n_accepted": 13
+   },
+   "content": "ready",
+   "reasoning_chars": 56
+  },
+  {
+   "case": "arabic",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "get_weather",
+     {
+      "city": "Amman",
+      "unit": "celsius"
+     }
+    ]
+   ],
+   "seconds": 1.17,
+   "finish": "tool_calls",
+   "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 664,
+    "total_tokens": 776,
+    "prompt_tokens_details": {
+     "cached_tokens": 396
+    }
+   },
+   "timings": {
+    "cache_n": 396,
+    "prompt_n": 268,
+    "prompt_ms": 315.638,
+    "prompt_per_token_ms": 1.1777537313432835,
+    "prompt_per_second": 849.0739391328041,
+    "predicted_n": 112,
+    "predicted_ms": 839.99,
+    "predicted_per_token_ms": 7.567477477477477,
+    "predicted_per_second": 132.1444302908368,
+    "draft_n": 189,
+    "draft_n_accepted": 85
+   },
+   "content": "",
+   "reasoning_chars": 285
+  },
+  {
+   "case": "tool_result",
+   "pass": true,
+   "problems": [],
+   "calls": [],
+   "seconds": 0.69,
+   "finish": "stop",
+   "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 664,
+    "total_tokens": 712,
+    "prompt_tokens_details": {
+     "cached_tokens": 396
+    }
+   },
+   "timings": {
+    "cache_n": 396,
+    "prompt_n": 268,
+    "prompt_ms": 317.245,
+    "prompt_per_token_ms": 1.18375,
+    "prompt_per_second": 844.7729672650476,
+    "predicted_n": 48,
+    "predicted_ms": 345.827,
+    "predicted_per_token_ms": 7.3580212765957445,
+    "predicted_per_second": 135.9061033406877,
+    "draft_n": 77,
+    "draft_n_accepted": 37
+   },
+   "content": "Amman: 23°C, clear skies.",
+   "reasoning_chars": 133
+  },
+  {
+   "case": "agent_step",
+   "pass": true,
+   "problems": [],
+   "calls": [
+    [
+     "list_dir",
+     {
+      "path": "E:/proj/src"
+     }
+    ]
+   ],
+   "seconds": 0.84,
+   "finish": "tool_calls",
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 653,
+    "total_tokens": 703,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "timings": {
+    "cache_n": 0,
+    "prompt_n": 653,
+    "prompt_ms": 464.822,
+    "prompt_per_token_ms": 0.7118254211332312,
+    "prompt_per_second": 1404.8388415350394,
+    "predicted_n": 50,
+    "predicted_ms": 263.823,
+    "predicted_per_token_ms": 5.384142857142857,
+    "predicted_per_second": 185.73058452068244,
+    "draft_n": 56,
+    "draft_n_accepted": 42
+   },
+   "content": "",
+   "reasoning_chars": 81
+  }
+ ]
+}

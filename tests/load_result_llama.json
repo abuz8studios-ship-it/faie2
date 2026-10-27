@@ -1,0 +1,265 @@
+{
+ "engine": "llama.cpp DFlash2 (b10510 dflash2 branch), Q6_K + Q8_0 drafter, KV q8_0, ub 256",
+ "runs": [
+  {
+   "round": 0,
+   "name": "code",
+   "prompt_n": 356,
+   "tokens": 1723,
+   "decode_ms": 10778.533,
+   "decode_tok_s": 159.7620010070016,
+   "draft_n": 2569,
+   "draft_accepted": 1356,
+   "wall_s": 11.2,
+   "stop": "eos"
+  },
+  {
+   "round": 0,
+   "name": "math",
+   "prompt_n": 372,
+   "tokens": 1168,
+   "decode_ms": 6415.707,
+   "decode_tok_s": 181.89733415194925,
+   "draft_n": 1540,
+   "draft_accepted": 948,
+   "wall_s": 6.8,
+   "stop": "eos"
+  },
+  {
+   "round": 0,
+   "name": "logic",
+   "prompt_n": 382,
+   "tokens": 1644,
+   "decode_ms": 11624.651,
+   "decode_tok_s": 141.33757650014613,
+   "draft_n": 2800,
+   "draft_accepted": 1244,
+   "wall_s": 12.02,
+   "stop": "eos"
+  },
+  {
+   "round": 0,
+   "name": "structured",
+   "prompt_n": 388,
+   "tokens": 420,
+   "decode_ms": 3167.532,
+   "decode_tok_s": 132.2796423208984,
+   "draft_n": 763,
+   "draft_accepted": 311,
+   "wall_s": 3.6,
+   "stop": "eos"
+  },
+  {
+   "round": 0,
+   "name": "arabic",
+   "prompt_n": 362,
+   "tokens": 1843,
+   "decode_ms": 21214.817,
+   "decode_tok_s": 86.82610837510406,
+   "draft_n": 5145,
+   "draft_accepted": 1108,
+   "wall_s": 21.62,
+   "stop": "eos"
+  },
+  {
+   "round": 0,
+   "name": "debug",
+   "prompt_n": 393,
+   "tokens": 2048,
+   "decode_ms": 18760.408,
+   "decode_tok_s": 109.11276556458687,
+   "draft_n": 4505,
+   "draft_accepted": 1402,
+   "wall_s": 19.19,
+   "stop": "limit"
+  },
+  {
+   "round": 0,
+   "name": "science",
+   "prompt_n": 347,
+   "tokens": 2048,
+   "decode_ms": 18198.193,
+   "decode_tok_s": 112.48369549658035,
+   "draft_n": 4337,
+   "draft_accepted": 1426,
+   "wall_s": 18.61,
+   "stop": "limit"
+  },
+  {
+   "round": 0,
+   "name": "plan",
+   "prompt_n": 356,
+   "tokens": 2048,
+   "decode_ms": 20452.5,
+   "decode_tok_s": 100.08556411196675,
+   "draft_n": 4871,
+   "draft_accepted": 1350,
+   "wall_s": 20.91,
+   "stop": "limit"
+  },
+  {
+   "round": 1,
+   "name": "code",
+   "prompt_n": 356,
+   "tokens": 1723,
+   "decode_ms": 10842.28,
+   "decode_tok_s": 158.8226830519042,
+   "draft_n": 2569,
+   "draft_accepted": 1356,
+   "wall_s": 11.21,
+   "stop": "eos"
+  },
+  {
+   "round": 1,
+   "name": "math",
+   "prompt_n": 372,
+   "tokens": 1168,
+   "decode_ms": 6537.458,
+   "decode_tok_s": 178.50975103778873,
+   "draft_n": 1540,
+   "draft_accepted": 948,
+   "wall_s": 6.83,
+   "stop": "eos"
+  },
+  {
+   "round": 1,
+   "name": "logic",
+   "prompt_n": 382,
+   "tokens": 1644,
+   "decode_ms": 11845.616,
+   "decode_tok_s": 138.70110258512517,
+   "draft_n": 2800,
+   "draft_accepted": 1244,
+   "wall_s": 12.11,
+   "stop": "eos"
+  },
+  {
+   "round": 1,
+   "name": "structured",
+   "prompt_n": 388,
+   "tokens": 420,
+   "decode_ms": 3249.673,
+   "decode_tok_s": 128.93604987332571,
+   "draft_n": 763,
+   "draft_accepted": 311,
+   "wall_s": 3.59,
+   "stop": "eos"
+  },
+  {
+   "round": 1,
+   "name": "arabic",
+   "prompt_n": 362,
+   "tokens": 1843,
+   "decode_ms": 21478.498,
+   "decode_tok_s": 85.76018676911207,
+   "draft_n": 5145,
+   "draft_accepted": 1108,
+   "wall_s": 21.8,
+   "stop": "eos"
+  },
+  {
+   "round": 1,
+   "name": "debug",
+   "prompt_n": 393,
+   "tokens": 2048,
+   "decode_ms": 19008.229,
+   "decode_tok_s": 107.69020091245746,
+   "draft_n": 4505,
+   "draft_accepted": 1402,
+   "wall_s": 19.3,
+   "stop": "limit"
+  },
+  {
+   "round": 1,
+   "name": "science",
+   "prompt_n": 347,
+   "tokens": 2048,
+   "decode_ms": 18297.852,
+   "decode_tok_s": 111.87105459154442,
+   "draft_n": 4337,
+   "draft_accepted": 1426,
+   "wall_s": 18.57,
+   "stop": "limit"
+  },
+  {
+   "round": 1,
+   "name": "plan",
+   "prompt_n": 356,
+   "tokens": 2048,
+   "decode_ms": 20629.785,
+   "decode_tok_s": 99.2254645407114,
+   "draft_n": 4871,
+   "draft_accepted": 1350,
+   "wall_s": 20.88,
+   "stop": "limit"
+  }
+ ],
+ "total_tokens": 25884,
+ "total_decode_s": 222.5,
+ "aggregate_tok_s": 116.3,
+ "elapsed_s": 228.3,
+ "gpu": {
+  "samples": 226,
+  "busy_samples": 223,
+  "sm_mhz": {
+   "median": 2557.0,
+   "min": 2422.0,
+   "max": 2827.0
+  },
+  "mem_mhz": {
+   "median": 14001.0,
+   "min": 14001.0,
+   "max": 14001.0
+  },
+  "power_w": {
+   "median": 574.4,
+   "min": 305.55,
+   "max": 582.87
+  },
+  "temp_c": {
+   "median": 60.0,
+   "min": 47.0,
+   "max": 65.0
+  },
+  "util_pct": {
+   "median": 93.0,
+   "min": 71.0,
+   "max": 95.0
+  },
+  "mem_used_mb": {
+   "median": 28256.0,
+   "min": 28256.0,
+   "max": 28261.0
+  }
+ },
+ "gpu0_processes": [
+  "2892, [Insufficient Permissions], [N/A]",
+  "13808, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe, [N/A]",
+  "12452, C:\\Windows\\explorer.exe, [N/A]",
+  "16932, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]",
+  "16956, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]",
+  "20424, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe, [N/A]",
+  "20244, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe, [N/A]",
+  "26484, C:\\Program Files\\WindowsApps\\AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.25.10326.0_x64__0a9344xs7nr4m\\radeonsoftware\\AMDRSSrcExt.exe, [N/A]",
+  "26872, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe, [N/A]",
+  "29492, C:\\Windows\\System32\\Kinect\\KinectService.exe, [N/A]",
+  "14140, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe, [N/A]",
+  "24088, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe, [N/A]",
+  "20464, C:\\Program Files\\WindowsApps\\AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.25.10326.0_x64__0a9344xs7nr4m\\radeonsoftware\\RadeonSoftware.exe, [N/A]",
+  "34672, C:\\Program Files\\WindowsApps\\TelegramMessengerLLP.TelegramDesktop_7.3.3.0_x64__t4vj0pshhgkwm\\Telegram.exe, [N/A]",
+  "38460, C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe, [N/A]",
+  "41488, C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe, [N/A]",
+  "25332, C:\\Users\\wirec\\AppData\\Local\\Programs\\Python\\Python313\\python.exe, [N/A]",
+  "33600, C:\\Windows\\System32\\ApplicationFrameHost.exe, [N/A]",
+  "42644, C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe, [N/A]",
+  "59928, C:\\Users\\wirec\\AppData\\Local\\Programs\\@opencode-aidesktop\\OpenCode.exe, [N/A]",
+  "61988, C:\\Users\\wirec\\AppData\\Local\\Programs\\abuz8-os\\ABUZ8 OS.exe, [N/A]",
+  "84128, C:\\Windows\\System32\\ShellHost.exe, [N/A]",
+  "33568, C:\\Program Files\\WindowsApps\\Claude_3.6556.2.0_x64__pzs8sxrjxfjjc\\app\\claude.exe, [N/A]",
+  "46404, C:\\Program Files\\WindowsApps\\Claude_3.6556.2.0_x64__pzs8sxrjxfjjc\\app\\claude.exe, [N/A]",
+  "86392, C:\\Users\\wirec\\AppData\\Local\\Programs\\Python\\Python313\\python.exe, [N/A]",
+  "76348, C:\\Users\\wirec\\AppData\\Local\\Programs\\Python\\Python313\\python.exe, [N/A]",
+  "87132, C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe, [N/A]",
+  "27632, E:\\ABU\\MODELS\\runtime\\src\\llama.cpp-dflash2\\build\\bin\\llama-server.exe, [N/A]"
+ ]
+}

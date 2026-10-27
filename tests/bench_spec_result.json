@@ -1,0 +1,20 @@
+{
+ "steps": {
+  "1": {
+   "gpu_ms": 18.222,
+   "host_ms": 18.318
+  },
+  "8": {
+   "gpu_ms": 18.926,
+   "host_ms": 19.027
+  }
+ },
+ "plain_tok_s": 54.6,
+ "spec_tok_s_no_drafter": {
+  "prose": 135.1,
+  "code": 302.2,
+  "translation": 308.0,
+  "structured": 359.0,
+  "perfect drafter": 420.5
+ }
+}

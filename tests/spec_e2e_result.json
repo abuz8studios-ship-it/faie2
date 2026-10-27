@@ -1,0 +1,52 @@
+{
+ "gpu_before": "0, 3860 MiB, 7 %\n1, 0 MiB, 0 %",
+ "rows": {
+  "code": {
+   "tokens": 512,
+   "spec_tok_s": 296.3,
+   "plain_tok_s": 52.9,
+   "steps": 75,
+   "tokens_per_step": 6.83,
+   "gpu_ms_per_step": 22.87,
+   "lossless_vs_plain": true,
+   "same_as_llama_greedy_for_first": 512,
+   "llama_dflash2_tok_s": 213.2
+  },
+  "structured": {
+   "tokens": 512,
+   "spec_tok_s": 301.0,
+   "plain_tok_s": 52.4,
+   "steps": 74,
+   "tokens_per_step": 6.92,
+   "gpu_ms_per_step": 22.71,
+   "lossless_vs_plain": true,
+   "same_as_llama_greedy_for_first": 512,
+   "llama_dflash2_tok_s": 220.9
+  },
+  "translation": {
+   "tokens": 40,
+   "spec_tok_s": 254.7,
+   "plain_tok_s": 54.1,
+   "steps": 7,
+   "tokens_per_step": 5.71,
+   "gpu_ms_per_step": 21.93,
+   "lossless_vs_plain": true,
+   "same_as_llama_greedy_for_first": 40,
+   "llama_dflash2_tok_s": 145.6
+  },
+  "prose": {
+   "tokens": 512,
+   "spec_tok_s": 117.2,
+   "plain_tok_s": 52.9,
+   "steps": 188,
+   "tokens_per_step": 2.72,
+   "gpu_ms_per_step": 23.04,
+   "lossless_vs_plain": true,
+   "same_as_llama_greedy_for_first": 150,
+   "llama_dflash2_tok_s": 95.0
+  }
+ },
+ "mean_faie2": 242.3,
+ "mean_llama": 168.7,
+ "lossless_all": true
+}

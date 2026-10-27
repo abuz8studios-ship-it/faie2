@@ -1,0 +1,18 @@
+{
+ "nt1_graphs0": {
+  "gpu_ms": 18.959,
+  "host_ms": 19.195
+ },
+ "nt8_graphs0": {
+  "gpu_ms": 19.486,
+  "host_ms": 20.629
+ },
+ "nt1_graphs1": {
+  "gpu_ms": 17.496,
+  "host_ms": 17.709
+ },
+ "nt8_graphs1": {
+  "gpu_ms": 18.14,
+  "host_ms": 19.382
+ }
+}
